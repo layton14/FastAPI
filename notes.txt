@@ -1,8 +1,19 @@
-# in Terminal, run the following to change to virtual environment
-#   source /Users/codylayton/Documents/Programming/FastAPI_2/venv/bin/activate
-#   uvicorn app.main:app --reload
-# pgAdmin/postgres password: postgres
+In Terminal, run the following to change to virtual environment:
+    source /Users/codylayton/Documents/Programming/FastAPI_2/venv/bin/activate
 
+command for hot reload:
+    uvicorn app.main:app --reload
+
+pgAdmin/postgres password: postgres
+
+Heroku stuff:
+    Host: ec2-52-204-195-41.compute-1.amazonaws.com
+    Database: db2hh24qr3npsk
+    User: sloqmuwbgzxpfv
+    Port: 5432
+    Password: 8f5486934aebf5ae7c31d05c3a00f35bb5863c19f4a3690ada65a77dcfc395ad
+    URI: postgres://sloqmuwbgzxpfv:8f5486934aebf5ae7c31d05c3a00f35bb5863c19f4a3690ada65a77dcfc395ad@ec2-52-204-195-41.compute-1.amazonaws.com:5432/db2hh24qr3npsk
+    Heroku CLI: heroku pg:psql postgresql-contoured-11618 --app fastapi-cody
 
 
 # old code
